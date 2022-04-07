@@ -96,6 +96,115 @@ body{
       display: flex;
     }
   }
+
+  .coffin_body{
+    font-size: 14px;
+    height: 700px;
+    position: relative;
+    width: 100%;
+    left: 0;
+    right: 0;
+    .coffin_bg_img {
+      height: 100%;
+      width: 100%;
+      object-fit: fill;
+      z-index: -1;
+    }
+    .img_coffin_border{
+      width: 50%;
+      height: 90%;
+      top: 5%;
+      left: 25%;
+      z-index: 1;
+      position: absolute;
+    }
+    .img_coffin_content_font{
+      width: 26%;
+      height: 15%;
+      top: 25%;
+      left: 37%;
+      z-index: 1;
+      position: absolute;
+    }
+
+    .coffin_content{
+      width: 26%;
+      height: 30%;
+      top: 40%;
+      left: 37%;
+      z-index: 1;
+      position: absolute;
+      font-size: 8px;
+    }
+
+    .img_coffin_content_bottom{
+      width: 26%;
+      height: 10%;
+      top: 80%;
+      left: 37%;
+      z-index: 1;
+      position: absolute;
+    }
+
+    .img_coffin_bottom_pic{
+      width: 100%;
+      height: 30%;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 0;
+    }
+  }
+
+  .coffin2_body{
+    font-size: 14px;
+    height: 700px;
+    position: relative;
+    width: 100%;
+    left: 0;
+    right: 0;
+    .coffin2_bg_img{
+      height: 100%;
+      width: 100%;
+      object-fit: fill;
+      z-index: -1;
+    }
+    .coffin2_pic{
+      height: 100%;
+      width: 100%;
+      object-fit: fill;
+      z-index: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+    }
+  }
+
+  .rarity_body{
+    height: 700px;
+    position: relative;
+    width: 100%;
+    left: 0;
+    right: 0;
+    .img_rarity_bg{
+      height: 100%;
+      width: 100%;
+      object-fit: fill;
+      z-index: -1;
+    }
+    .img_rarity_border_pic{
+      width: 50%;
+      height: 90%;
+      top: 5%;
+      left: 25%;
+      z-index: 1;
+      position: absolute;
+    }
+
+  }
+
 }
 
 
