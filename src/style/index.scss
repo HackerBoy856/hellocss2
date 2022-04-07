@@ -31,30 +31,39 @@ body{
       z-index: -1;
     }
 
-    .header_nav {
+    .header_nav_div{
       width: 70%;
       height: 130px;
       z-index: 1;
       position: absolute;
       top: 30px;
       left: 15%;
-    }
 
-    .header_nav_menu {
-      height: 50px;
-      width: 50%;
-      z-index: 1;
-      position: absolute;
-      top: 75px;
-      left: calc(15% + 220px);
-      display: flex;
-
-      .header_nav_menu_li {
-        color: #ffffff;
-        font-size: 25px;
-        margin-left: 20px;
+      .header_nav {
+        height: 100%;
+        width: 100%;
+        object-fit: fill;
+        z-index: -1;
       }
+
+      .header_nav_menu {
+        height: 50px;
+        width: 50%;
+        z-index: 1;
+        position: absolute;
+        top: 36%;
+        left: 25%;
+        display: flex;
+
+        .header_nav_menu_li {
+          color: #ffffff;
+          font-size: 25px;
+          margin-left: 20px;
+        }
+      }
+
     }
+
 
     .img_header_font {
       height: 300px;
@@ -129,12 +138,14 @@ body{
 
     .coffin_content{
       width: 26%;
-      height: 30%;
+      height: 40%;
       top: 40%;
       left: 37%;
       z-index: 1;
       position: absolute;
-      font-size: 8px;
+      font-size: 15px;
+      text-align: center;
+      overflow: auto;
     }
 
     .img_coffin_content_bottom{
@@ -174,11 +185,11 @@ body{
       height: 100%;
       width: 100%;
       object-fit: fill;
-      z-index: 0;
+      z-index: 1;
       position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
+      //top: 0;
+      //left: 0;
+      //right: 0;
     }
   }
 
@@ -194,6 +205,7 @@ body{
       object-fit: fill;
       z-index: -1;
     }
+
     .img_rarity_border_pic{
       width: 50%;
       height: 90%;
@@ -202,6 +214,88 @@ body{
       z-index: 1;
       position: absolute;
     }
+
+    .img_rarity_border_pic{
+      width: 50%;
+      height: 90%;
+      top: 5%;
+      left: 25%;
+      z-index: 1;
+      position: absolute;
+    }
+
+    .rarity_mu_div{
+      width: 40%;
+      height: 30px;
+      top: 26%;
+      left: 30%;
+      z-index: 1;
+      position: absolute;
+      display: flex;
+
+      .img_rarity_mu{
+        width: 30px;
+        height: 30px;
+      }
+
+      .rarity_mu_font{
+        width: calc(100% - 20px - 20px);
+        height: 30px;
+        margin-left: 20px;
+        font-size: 12px;
+        font-weight: bold;
+      }
+
+    }
+
+    .rarity_font_div{
+      width: 40%;
+      height: 40px;
+      top: 36%;
+      left: 30%;
+      z-index: 1;
+      position: absolute;
+      display: flex;
+      justify-content: space-between;
+
+      .rarity_font_div_flex{
+        width: 50%;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .rarity_font_div_flex_main{
+          width: 100%;
+          font-size: 20px;
+          font-weight: bold;
+        }
+        .rarity_font_div_flex_detail{
+          width: 100%;
+          font-size: 20px;
+          display: flex;
+          justify-content: left;
+          padding: 8px;
+
+          .rarity_font_div_flex_detail_left{
+            width: 50%;
+            text-align: left;
+            font-size: 16px;
+            font-weight: bold;
+            padding-left: 20px;
+          }
+
+          .rarity_font_div_flex_detail_right{
+            width: 50%;
+            text-align: left;
+            font-size: 16px;
+          }
+
+        }
+      }
+
+    }
+
+
 
   }
 

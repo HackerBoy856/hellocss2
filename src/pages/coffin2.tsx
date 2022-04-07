@@ -1,7 +1,7 @@
 // @ts-ignore
 import React,{ FC } from 'react'
 import img_coffin2_bg from '../image/background/Coffin90_bg3.jpg'
-import img_coffin2_pic from '../image/page2/300ppi/coffin2_pic.png'
+import img_coffin2_pic from '../image/page2/300ppi/coffin2_pic.jpg'
 interface Coffin2Props {
 }
 
