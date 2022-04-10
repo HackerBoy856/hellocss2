@@ -6,6 +6,9 @@ import Coffin from './coffin'
 import Coffin2 from './coffin2'
 import Rarity from "./rarity";
 import Faq from './faq'
+import Team from './team'
+import Footer from './footer'
+
 interface IndexProps {
 }
 
@@ -19,6 +22,8 @@ const Index: FC<IndexProps> = props => {
       <Coffin2 />
       <Rarity />
       <Faq />
+      <Team />
+      <Footer />
     </>
 
   )
