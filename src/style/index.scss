@@ -292,12 +292,25 @@ body{
 
         }
       }
-
     }
-
-
-
   }
+
+  .faq_body{
+    font-size: 14px;
+    height: 700px;
+    position: relative;
+    width: 100%;
+    left: 0;
+    right: 0;
+    .faq_bg{
+      height: 100%;
+      width: 100%;
+      object-fit: fill;
+      z-index: -1;
+    }
+  }
+
+
 
 }
 

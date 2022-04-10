@@ -5,6 +5,7 @@ import Header from "./header";
 import Coffin from './coffin'
 import Coffin2 from './coffin2'
 import Rarity from "./rarity";
+import Faq from './faq'
 interface IndexProps {
 }
 
@@ -17,6 +18,7 @@ const Index: FC<IndexProps> = props => {
       <Coffin />
       <Coffin2 />
       <Rarity />
+      <Faq />
     </>
 
   )
