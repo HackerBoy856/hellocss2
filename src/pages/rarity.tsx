@@ -3,6 +3,7 @@ import React, {FC} from 'react'
 import img_rarity_bg from '../image/background/rarity_bg.jpg'
 import img_rarity_border_pic from '../image/page3/300ppi/rarity_border_pic.png'
 import img_rarity_mu from '../image/page3/300ppi/rarity_mu.png'
+import img_detail_font_bg from '../image/page4/300ppi/font_bg.jpg'
 
 interface RarityProps {
 }
@@ -25,14 +26,16 @@ const Rarity: FC<RarityProps> = props => {
                     <div className="rarity_font_div_flex">
                         <div className="rarity_font_div_flex_main">TYPES</div>
                         <div className="rarity_font_div_flex_detail">
-                            <div className="rarity_font_div_flex_detail_left">5,000</div>
-                            <div className="rarity_font_div_flex_detail_right">total coffin90</div>
+                            <img className="img_detail_font_bg" src={img_detail_font_bg} alt=""/>
+                            <div className="rarity_font_div_flex_detail_left"> 5,000</div>
+                            <div className="rarity_font_div_flex_detail_right"> total coffin90</div>
                         </div>
                         <div className="rarity_font_div_flex_detail">
                             <div className="rarity_font_div_flex_detail_left">Common</div>
                             <div className="rarity_font_div_flex_detail_right">Thumbs up</div>
                         </div>
                         <div className="rarity_font_div_flex_detail">
+                            <img className="img_detail_font_bg" src={img_detail_font_bg} alt=""/>
                             <div className="rarity_font_div_flex_detail_left">Less Common</div>
                             <div className="rarity_font_div_flex_detail_right">no clothes</div>
                         </div>
@@ -41,6 +44,7 @@ const Rarity: FC<RarityProps> = props => {
                             <div className="rarity_font_div_flex_detail_right">??????????</div>
                         </div>
                         <div className="rarity_font_div_flex_detail">
+                            <img className="img_detail_font_bg" src={img_detail_font_bg} alt=""/>
                             <div className="rarity_font_div_flex_detail_left">Super Rare</div>
                             <div className="rarity_font_div_flex_detail_right">???????????</div>
                         </div>
@@ -49,6 +53,7 @@ const Rarity: FC<RarityProps> = props => {
                     <div className="rarity_font_div_flex">
                         <div className="rarity_font_div_flex_main">VARIATIONS</div>
                         <div className="rarity_font_div_flex_detail">
+                            <img className="img_detail_font_bg" src={img_detail_font_bg} alt=""/>
                             <div className="rarity_font_div_flex_detail_left">50</div>
                             <div className="rarity_font_div_flex_detail_right">??????????</div>
                         </div>
@@ -57,6 +62,7 @@ const Rarity: FC<RarityProps> = props => {
                             <div className="rarity_font_div_flex_detail_right">??????????</div>
                         </div>
                         <div className="rarity_font_div_flex_detail">
+                            <img className="img_detail_font_bg" src={img_detail_font_bg} alt=""/>
                             <div className="rarity_font_div_flex_detail_left">20</div>
                             <div className="rarity_font_div_flex_detail_right">??????????</div>
                         </div>
@@ -65,6 +71,7 @@ const Rarity: FC<RarityProps> = props => {
                             <div className="rarity_font_div_flex_detail_right">??????????</div>
                         </div>
                         <div className="rarity_font_div_flex_detail">
+                            <img className="img_detail_font_bg" src={img_detail_font_bg} alt=""/>
                             <div className="rarity_font_div_flex_detail_left">30</div>
                             <div className="rarity_font_div_flex_detail_right">??????????</div>
                         </div>
@@ -73,6 +80,7 @@ const Rarity: FC<RarityProps> = props => {
                             <div className="rarity_font_div_flex_detail_right">??????????</div>
                         </div>
                         <div className="rarity_font_div_flex_detail">
+                            <img className="img_detail_font_bg" src={img_detail_font_bg} alt=""/>
                             <div className="rarity_font_div_flex_detail_left">30</div>
                             <div className="rarity_font_div_flex_detail_right">??????????</div>
                         </div>
@@ -81,6 +89,7 @@ const Rarity: FC<RarityProps> = props => {
                             <div className="rarity_font_div_flex_detail_right">??????????</div>
                         </div>
                         <div className="rarity_font_div_flex_detail">
+                            <img className="img_detail_font_bg" src={img_detail_font_bg} alt=""/>
                             <div className="rarity_font_div_flex_detail_left">30</div>
                             <div className="rarity_font_div_flex_detail_right">??????????</div>
                         </div>
