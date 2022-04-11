@@ -105,6 +105,7 @@ body{
       overflow-x: hidden;
       overflow-y: hidden;
       -webkit-overflow-scrolling: touch;
+      font-weight: bold;
     }
 
     .img_coffin_content_bottom{
@@ -405,7 +406,7 @@ body{
       width: 70%;
       height: 5vh;
       position: absolute;
-      top: 45vh;
+      top: 62vh;
       left: 15%;
     }
 
@@ -413,7 +414,7 @@ body{
       width: 70%;
       height: 30px;
       position: absolute;
-      top: 55vh;
+      top: 45vh;
       left: 15%;
       color: white;
       font-weight: bold;
@@ -424,7 +425,7 @@ body{
       width: 70%;
       height: 10vh;
       position: absolute;
-      top: 62vh;
+      top: 55vh;
       left: 15%;
       display: flex;
       justify-content: space-around;
@@ -460,12 +461,12 @@ body{
     }
 
     .header_nav_div{
-      width: 80vh;
+      width: 82vh;
       height: 10vh;
       z-index: 1;
       position: absolute;
       top: 5vh;
-      left: calc((100% - 80vh) / 2);
+      left: calc((100% - 82vh) / 2);
 
       .header_nav {
         height: 100%;
@@ -479,7 +480,7 @@ body{
         width: 50%;
         z-index: 1;
         position: absolute;
-        top: 36%;
+        top: 32%;
         left: 25%;
         display: flex;
 
@@ -577,6 +578,7 @@ body{
       overflow-x: hidden;
       overflow-y: hidden;
       -webkit-overflow-scrolling: touch;
+      font-weight: bold;
     }
 
     .img_coffin_content_bottom{
@@ -746,7 +748,7 @@ body{
       z-index: -1;
     }
     .img_faq_font{
-      width: 40px;
+      width: 20vh;
       height: 40px;
       position: absolute;
       top: 15%;
@@ -777,8 +779,8 @@ body{
 
     .faq_ico_border{
       width: 90%;
-      bottom: 10vh;
-      height: 10vh;
+      bottom: 5vh;
+      height: 15vh;
       left: 5%;
       position: absolute;
       border: 3px red solid;
@@ -787,8 +789,8 @@ body{
       align-items: center;
 
       .faq_border_icov{
-        width: 65px;
-        height: 65px;
+        width: 80px;
+        height: 80px;
       }
     }
 

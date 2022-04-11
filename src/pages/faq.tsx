@@ -1,13 +1,14 @@
 // @ts-ignore
 import React,{ FC } from 'react'
 import img_faq_bg from '../image/background/faq_bg.jpg'
-import img_faq_font from '../image/page4/300ppi/Asset23.png'
+import img_faq_font from '../image/page4/300ppi/font_faq.png'
 import img_faq_border from '../image/page4/300ppi/faq_border.png'
 import img_ico1 from '../image/page4/300ppi/icov1.png'
 import img_ico2 from '../image/page4/300ppi/icov2.png'
 import img_ico3 from '../image/page4/300ppi/icov3.png'
 import img_ico4 from '../image/page4/300ppi/icov4.png'
 import img_ico5 from '../image/page4/300ppi/icov5.png'
+import img_ico6 from '../image/page4/300ppi/icov6.png'
 import img_ico7 from '../image/page4/300ppi/icov7.png'
 import img_ico8 from '../image/page4/300ppi/icov8.png'
 
@@ -41,7 +42,7 @@ const Faq: FC<FaqProps> = props => {
           <img className="faq_border_icov" src={img_ico3} alt=""/>
           <img className="faq_border_icov" src={img_ico4} alt=""/>
           <img className="faq_border_icov" src={img_ico5} alt=""/>
-          <img className="faq_border_icov" src={img_ico7} alt=""/>
+          <img className="faq_border_icov" src={img_ico6} alt=""/>
           <img className="faq_border_icov" src={img_ico7} alt=""/>
           <img className="faq_border_icov" src={img_ico8} alt=""/>
         </div>

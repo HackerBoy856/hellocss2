@@ -4,6 +4,8 @@ import img_team_bg from '../image/background/team_bg.jpg'
 import img_team_pic from '../image/page5/300ppi/team_pic.png'
 import img_team_ico1 from '../image/page5/300ppi/team_ico1.png'
 import img_team_ico2 from '../image/page5/300ppi/team_ico2.png'
+import img_team_ico3 from '../image/page5/300ppi/team_ico3.png'
+import img_team_ico4 from '../image/page5/300ppi/team_ico4.png'
 
 interface TeamProps {
 }
@@ -45,7 +47,7 @@ const Team: FC<TeamProps> = props => {
                   </div>
               </div>
               <div className="img_team_div">
-                  <img className="img_team_ico" src={img_team_ico1} alt=""/>
+                  <img className="img_team_ico" src={img_team_ico3} alt=""/>
                   <div className="img_team_ico_title">BEN</div>
                   <div className="img_team_ico_des">PROJECT COORDINATOR</div>
                   <div className="img_team_ico_content">Lorem ipsum dolor sit
@@ -58,7 +60,7 @@ const Team: FC<TeamProps> = props => {
                   </div>
               </div>
               <div className="img_team_div">
-                  <img className="img_team_ico" src={img_team_ico2} alt=""/>
+                  <img className="img_team_ico" src={img_team_ico4} alt=""/>
                   <div className="img_team_ico_title">JOHN</div>
                   <div className="img_team_ico_des">WEB DEVELOPER</div>
                   <div className="img_team_ico_content">Lorem ipsum dolor sit
