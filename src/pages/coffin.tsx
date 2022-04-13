@@ -5,6 +5,7 @@ import img_coffin_border from '../image/page2/300ppi/coffin_border.png'
 import img_coffin_content_font from '../image/page2/300ppi/coffin_content_font.png'
 import img_coffin_content_bottom from '../image/page2/300ppi/coffin_content_bottom.png'
 import img_coffin_bottom_pic from '../image/page2/300ppi/coffin_bottom_pic.png'
+import img_coffin_border_m  from  '../image/page2/300ppi/coffin_boder_m.png'
 interface CoffinProps {
 }
 
@@ -16,6 +17,7 @@ const Coffin: FC<CoffinProps> = props => {
       <div className="coffin_body">
         <img className="coffin_bg_img" src={img_coffin_bg} alt=""/>
         <img className="img_coffin_border" src={img_coffin_border} alt=""/>
+        <img className="img_coffin_border_m" src={img_coffin_border_m} alt=""/>
         <img className="img_coffin_content_font" src={img_coffin_content_font} alt=""/>
         <div className="coffin_content">
           Lorem ipsum dolor sit amet, consectetuer adipiscing

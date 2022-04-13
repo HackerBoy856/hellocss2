@@ -4,6 +4,9 @@ import img_rarity_bg from '../image/background/rarity_bg.jpg'
 import img_rarity_border_pic from '../image/page3/300ppi/rarity_border_pic.png'
 import img_rarity_mu from '../image/page3/300ppi/rarity_mu.png'
 import img_detail_font_bg from '../image/page4/300ppi/font_bg.jpg'
+import img_rarity_border_pic_m from '../image/page3/300ppi/rarity_border_pic_m.png'
+import img_rarity_border_title_m from '../image/page3/300ppi/rarity_border_title.png'
+import img_rarity_border_bottom_m from '../image/page3/300ppi/rarity_border_bottom_m.png'
 
 interface RarityProps {
 }
@@ -15,6 +18,11 @@ const Rarity: FC<RarityProps> = props => {
             <div className="rarity_body">
                 <img className="img_rarity_bg" src={img_rarity_bg} alt=""/>
                 <img className="img_rarity_border_pic" src={img_rarity_border_pic} alt=""/>
+                {/* 移动端 */}
+                <img className="img_rarity_border_pic_m" src={img_rarity_border_pic_m} alt=""/>
+                <img className="img_rarity_border_title_m" src={img_rarity_border_title_m} alt=""/>
+                <img className="img_rarity_border_bottom_m" src={img_rarity_border_bottom_m} alt=""/>
+
                 <div className="rarity_mu_div">
                     <img className="img_rarity_mu" src={img_rarity_mu} alt=""/>
                     <div className="rarity_mu_font">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam

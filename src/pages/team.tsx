@@ -1,6 +1,7 @@
 // @ts-ignore
 import React,{ FC } from 'react'
 import img_team_bg from '../image/background/team_bg.jpg'
+import img_team_bg_m from '../image/background/iphone_size-06.png'
 import img_team_pic from '../image/page5/300ppi/team_pic.png'
 import img_team_ico1 from '../image/page5/300ppi/team_ico1.png'
 import img_team_ico2 from '../image/page5/300ppi/team_ico2.png'
@@ -15,6 +16,7 @@ const Team: FC<TeamProps> = props => {
     <>
       <div className="team_body">
           <img className="img_team_bg" src={img_team_bg} alt=""/>
+          <img className="img_team_bg_m" src={img_team_bg_m} alt=""/>
           <img className="img_team_pic" src={img_team_pic} alt=""/>
           <div className="img_team_ico_div">
               <div className="img_team_div_m">
